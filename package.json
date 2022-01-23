@@ -1,0 +1,25 @@
+{
+  "name": "counter-nodejs-and-socket-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubasshir00/Counter-NodeJS-and-Socket-IO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubasshir00/Counter-NodeJS-and-Socket-IO/issues"
+  },
+  "homepage": "https://github.com/mubasshir00/Counter-NodeJS-and-Socket-IO#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
